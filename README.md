@@ -1,1 +1,6 @@
 # matplotlib_challenge
+
+This challenge utilized pandas and matplotlib to analyze a dataset of cancer treatment results in mice after select treatment regimes. The exercise was an excellent practice in managing data and using plotting methods in jupyter notebook to generate accurate and well formatted charts. A few observations from the results are as follows;
+- Among the four treatment regimes, mice treated with Capomulin and Ramicane had significantly lower final tumor volumes than those treated with Infubinol and Ceftamin. The box and whisper chart reflects the following: The inner quartile range (iqr) for both Capomulin and Ramicane of final tumor volumes was close to 30-40 mm3, while the iqr for Infubinol and Ceftamin fell between 50-70 mm3 with both their means close to 60 mm3.
+- As seen in the line graph - the average tumor volume over time dropped precipitously among the mice treated with Capomulin, going from ~45 mm3 to well under 10.
+- According to the regression analysis, their is a strong positive correlation with average tumor volume and mouse weight among the mice treated with Capomulin. 
